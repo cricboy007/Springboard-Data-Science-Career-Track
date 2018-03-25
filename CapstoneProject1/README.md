@@ -1,21 +1,21 @@
-# Keeping it Fresh: Predict Restaurant Inspections
+# Allstate Purchase Prediction Challenge
 
 ### 1) What is the problem you want to solve?
-The goal for this problem is to use data from social media to narrow the search for health code violations in Boston. You will have access to historical hygiene violation records from the City of Boston — a leader in open government data — and Yelp's consumer reviews. The challenge: Figure out the words, phrases, ratings, and patterns that predict violations, to help public health inspectors do their job better.
+Using a customer’s shopping history, can you predict what policy they will end up choosing?
+
 
 ------------
 
 
 ### 2) Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
-The City of Boston regularly inspects every restaurant to monitor and improve food safety and public health. As in most cities, health inspections are generally random, which can increase time spent on spot checks at clean restaurants that have been following the rules closely — and missed opportunities to improve health and hygiene at places with more pressing food safety issues.
-Each year, millions of people cycle through and post Yelp reviews about their experiences at these same restaurants. The information in these reviews has the potential to improve the City's inspection efforts, and could transform the way inspections are targeted.
+As a customer shops an insurance policy, he/she will receive a number of quotes with different coverage options before purchasing a plan. This is represented in this challenge as a series of rows that include a customer ID, information about the customer, information about the quoted policy, and the cost. Your task is to predict the purchased coverage options using a limited subset of the total interaction history. If the eventual purchase can be predicted sooner in the shopping window, the quoting process is shortened and the issuer is less likely to lose the customer's business.
 
 
 ------------
 
 
 ### 3) What data are you going to use for this? How will you acquire this data?
-Data is freely available for non commercial use at See **https://bit.ly/2GlrPQx**
+Data is freely available for non commercial use at See **https://www.kaggle.com/c/allstate-purchase-prediction-challenge/data**
 
 ------------
 
@@ -24,10 +24,7 @@ Data is freely available for non commercial use at See **https://bit.ly/2GlrPQx*
 1. **General process to follow**:
 	2. Analysis of data: pull data into dataframe using pandas, do describe, come up with a strategy to fill up or ignore missing values
 	3. Analysis of structured data
-	4. Analysis of unstructured data
 6. **Data Modeling using clusters:**
-	7. Got inspected
-	8. Not inspected
 10. **Plot box plot, charts, identify words that indicate some issue, look for co-linear and covariance fields.  **
 
 ------------

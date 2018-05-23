@@ -27,7 +27,7 @@ Data is freely available for non commercial use at See **https://www.kaggle.com/
 	2. Analysis of data: pull data into dataframe using pandas, do describe, come up with a strategy to fill up or ignore missing values
 	3. Analysis of structured data
 6. **Data Modeling using clusters:**
-10. **Plot box plot, charts, identify words that indicate some issue, look for co-linear and covariance fields.  **
+10. Plot box plot, charts, identify words that indicate some issue, look for co-linear and covariance fields.  **
 
 ------------
 

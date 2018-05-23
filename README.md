@@ -6,9 +6,8 @@
    2. Answer few question using exploratory data analysis
    
 #### 2. First Capstone Project: 
-   Two Sigma Connect: Rental Listing Inquiries - <br />
-   Goal is to identify How much interest will a new rental listing on RentHop receive? <br />
-   Tasks:
+   Two Sigma Connect: Rental Listing Inquiries - Goal is to identify How much interest will a new rental listing on RentHop receive? <br /><br />
+   Steps to follow:
    1.  Collect the raw data
    2.  Process the data for analysis
    3.  Explore the data

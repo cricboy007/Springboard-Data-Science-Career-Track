@@ -1,21 +1,23 @@
-# Allstate Purchase Prediction Challenge
+# Two Sigma Connect: Rental Listing Inquiries
 
 ### 1) What is the problem you want to solve?
-Using a customer’s shopping history, can you predict what policy they will end up choosing?
+How much interest will a new rental listing on RentHop receive?
+you will predict how popular an apartment rental listing is based on the listing content like text description, photos, number of bedrooms, price, etc. The data comes from renthop.com, an apartment listing website. These apartments are located in New York City.
 
+The target variable, interest_level, is defined by the number of inquiries a listing has in the duration that the listing was live on the site. 
 
 ------------
 
 
 ### 2) Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
-As a customer shops an insurance policy, he/she will receive a number of quotes with different coverage options before purchasing a plan. This is represented in this challenge as a series of rows that include a customer ID, information about the customer, information about the quoted policy, and the cost. Your task is to predict the purchased coverage options using a limited subset of the total interaction history. If the eventual purchase can be predicted sooner in the shopping window, the quoting process is shortened and the issuer is less likely to lose the customer's business.
+Finding the perfect place to call your new home should be more than browsing through endless listings. RentHop makes apartment search smarter by using data to sort rental listings by quality. But while looking for the perfect apartment is difficult enough, structuring and making sense of all available real estate data programmatically is even harder. You will predict the number of inquiries a new listing receives based on the listing’s creation date and other features. Doing so will help RentHop better handle fraud control, identify potential listing quality issues, and allow owners and agents to better understand renters’ needs and preferences.
 
 
 ------------
 
 
 ### 3) What data are you going to use for this? How will you acquire this data?
-Data is freely available for non commercial use at See **https://www.kaggle.com/c/allstate-purchase-prediction-challenge/data**
+Data is freely available for non commercial use at See **https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries/data**
 
 ------------
 

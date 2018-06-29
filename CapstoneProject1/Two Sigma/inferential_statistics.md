@@ -15,25 +15,25 @@ Find correlation between columns
 
 ![](https://github.com/cricboy007/Springboard-Data-Science-Career-Track/blob/master/CapstoneProject1/Two%20Sigma/corr.JPG)
 
-####Here are my observations:
+#### Here are my observations:
 1. #bedrooms has positive correlation with interest level, but it’s hard to conclude anything based on the value #features and #photos has weak positive correlation with interest level
 2. Interestingly, #bathrooms and price has weak negative correlation with interest level #bedrooms and number of bathrooms are directly proportional
 3. #features, #photos, #bedrooms and #bathrooms has positive correlation
                 
 
-####Hypothesis testing:
-###Null Hypothesis: Price has no effect on interest level. Mean rent is 3830
-###Alternative Hypothesis: Price has an effect on interest level. In other words mean rent != 3830
+#### Hypothesis testing:
+* Null Hypothesis: Price has no effect on interest level. Mean rent is 3830
+* Alternative Hypothesis: Price has an effect on interest level. In other words mean rent != 3830
 
-####I divided dataset into two sets:
-*Set1 - Listing below mean rent 3830
-*Set2 - Listing above or equal to 3830
+I divided dataset into two sets:
+* Set1 - Listing below mean rent 3830
+* Set2 - Listing above or equal to 3830
 
 After applying T-test using stats.ttest_ind, I got **p-value as  1.1716559094536672e-07.**
 
 **With such a low p-value we can safely deny null hypothesis.
 In other words, listing price has an effect on interest level.**
 
-###Links
+### Links
 
 [inferential_statistics.ipynb](https://github.com/cricboy007/Springboard-Data-Science-Career-Track/blob/master/CapstoneProject1/Two%20Sigma/inferential%20statistics.ipynb)

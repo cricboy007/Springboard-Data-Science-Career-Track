@@ -15,17 +15,17 @@ Find correlation between columns
 
 ![](https://github.com/cricboy007/Springboard-Data-Science-Career-Track/blob/master/CapstoneProject1/Two%20Sigma/corr.JPG)
 
-Here are my observations:
-#bedrooms has positive correlation with interest level, but it’s hard to conclude anything based on the value
-#features and #photos has weak positive correlation with interest level
-Interestingly, #bathrooms and price has weak negative correlation with interest level
-#bedrooms and number of bathrooms are directly proportional
-#features, #photos, #bedrooms and #bathrooms has positive correlation
+####Here are my observations:
+1. #bedrooms has positive correlation with interest level, but it’s hard to conclude anything based on the value #features and #photos has weak positive correlation with interest level
+2. Interestingly, #bathrooms and price has weak negative correlation with interest level #bedrooms and number of bathrooms are directly proportional
+3. #features, #photos, #bedrooms and #bathrooms has positive correlation
+                
 
-Null Hypothesis: Price has no effect on interest level. Mean rent is 3830
-Alternative Hypothesis: Price has an effect on interest level. In other words mean rent != 3830
+####Hypothesis testing:
+###Null Hypothesis: Price has no effect on interest level. Mean rent is 3830
+###Alternative Hypothesis: Price has an effect on interest level. In other words mean rent != 3830
 
-I divided dataset into two sets:
+####I divided dataset into two sets:
 *Set1 - Listing below mean rent 3830
 *Set2 - Listing above or equal to 3830
 
@@ -36,4 +36,4 @@ In other words, listing price has an effect on interest level.**
 
 ###Links
 
-[Links](https://github.com/cricboy007/Springboard-Data-Science-Career-Track/blob/master/CapstoneProject1/Two%20Sigma/inferential%20statistics.ipynb)
+[inferential_statistics.ipynb](https://github.com/cricboy007/Springboard-Data-Science-Career-Track/blob/master/CapstoneProject1/Two%20Sigma/inferential%20statistics.ipynb)
